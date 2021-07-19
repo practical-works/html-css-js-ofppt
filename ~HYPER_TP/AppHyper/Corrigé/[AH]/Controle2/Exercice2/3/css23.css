@@ -1,0 +1,48 @@
+﻿*
+{
+	padding : 0px;
+	margin : 0px;
+}
+
+body
+{
+	max-width : 800px;
+	margin : auto;
+	margin-bottom : 30px;
+}
+
+h1
+{
+	width : 70%;
+	margin : auto;
+	margin-top : 20px;
+	border : solid blue 1px;
+	text-align : left;
+	color : blue;
+	text-transform : uppercase;
+	font-weight : bold;
+	background-color : white;
+	position : relative;
+	top : 30px;
+	left : -60px;
+}
+
+p 
+{
+	margin : 10px;
+	height :auto;
+	border : 1px solid blue;
+	padding : 10px;
+	padding-top : 30px;
+}
+
+a
+{
+	display : block;
+	position : relative ;
+	width : 22px;
+	height : 22px;
+	margin-top : 0px;
+	margin-left : auto ;
+	margin-right : 0px;
+}

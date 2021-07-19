@@ -1,0 +1,59 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+h1
+{
+	text-align:center;
+	border:1px solid blue;
+	background-color:lemonchiffon;
+}
+/* Padding : A eviter */
+h2
+{
+	background-color:white;
+	margin:0px;
+}
+body>div
+{
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+	/* position:absolute;*/
+	padding:5px;
+}
+ul
+{
+	list-style:none;
+	border:1px solid blue;
+	width:17%;
+	padding-left:5px; 
+	margin-top:5px;
+	float:left;
+	
+}
+body>div>div
+{ 
+	background-color:bisque;
+	/* border:1px solid blue; */
+	margin-top:5px; 	
+	padding:5px;
+	width:80%;
+	float:right;
+}
+
+body>div>div:nth-child(9)>p:last-child
+{
+	text-align:center;
+	color:maroon;
+}
+
+h2:before
+{
+	content:url('Exercice.png');
+	/* display:inline */
+}
+
+
+

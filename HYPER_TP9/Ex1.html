@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>o.o</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form>
+		<input type="checkbox" id="pain">Pain : <br>
+		<input type="text" id="pain_qte">
+		<label>grammes</label>
+		<br>
+		<input type="checkbox" id="viande">Viande: <br>
+		<input type="text" id="viande_qte">
+		<label>grammes</label>
+		<br>
+		<input type="checkbox" id="legumes">Légumes : <br>
+		<input type="text" id="legumes_qte">
+		<label>grammes</label>
+		<br>
+		<input type="checkbox" id="banane">Banane : <br>
+		<input type="text" id="banane_qte">
+		<label>unités</label>
+		<br>
+		<input type="checkbox" id="pomme">Pomme : <br>
+		<input type="text" id="pomme_qte">
+		<label>unités</label>
+		<br>	
+		<input type="checkbox" id="yaourt">Yaourt : <br>
+		<input type="text" id="yaourt_qte">
+		<label>unités</label>
+		<br><br>
+		<input type="button" id="Valider" value="Valider" onclick="calculer()">
+		<br><br>
+		<label>La valeur énergitique du repas est: </label><br>
+		<input type="text" id="resultat"> Kilo calories
+	</form>
+</body>
+<script type="text/javascript">
+	function calculer() {
+		var pain_qte = document.getElementById("pain_qte").value;
+		var viande_qte = document.getElementById("viande_qte").value;
+		var legumes_qte = document.getElementById("legumes_qte").value;
+		var banane_qte = document.getElementById("banane_qte").value;
+		var pomme_qte = document.getElementById("pomme_qte").value;
+		var yaourt_qte = document.getElementById("yaourt_qte").value;
+		var resultat = 0;
+		if (document.getElementById("pain").checked)
+			resultat += pain_qte*(275/100);
+		if (document.getElementById("viande").checked)
+			resultat += viande_qte*(180/100);
+		if (document.getElementById("legumes").checked)
+			resultat += legumes_qte*(40/100);
+		if (document.getElementById("banane").checked)
+			resultat += banane_qte*116;
+		if (document.getElementById("pomme").checked)
+			resultat += pomme_qte*80;
+		if (document.getElementById("yaourt").checked)
+			resultat += yaourt_qte*140;
+		document.getElementById("resultat").value = resultat;
+	}
+</script>
+</html>

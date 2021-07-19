@@ -1,0 +1,43 @@
+body {
+	font-family: 'Century Gothic', sans-serif;
+	background-color: silver;
+	font-size: 120%;
+}
+fieldset {
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 30%;
+	margin: 0px auto;
+	background-color: white;
+	padding: 30px 50px;
+}
+input[type="text"], input[type="number"], input[type="email"], select {
+	width: 100%;
+	border: 2px solid black;
+}
+input[type="checkbox"]:checked {
+	order: 2px solid black;
+}
+input[type="submit"], input[type="reset"] {
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: silver;
+	padding: 7px 50px;
+	font-weight: bold;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+	background-color: orange;
+	cursor: pointer;
+}
+input:hover, select:hover, fieldset:hover {
+	box-shadow: 3px 3px 0px black;
+}
+.buttons_area {
+	text-align: center;
+}
+._champs {
+	color: red;
+	text-shadow: 1px 1px black;
+	display: none;
+	font-weight: bold;
+}

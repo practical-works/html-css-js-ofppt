@@ -1,0 +1,11 @@
+p
+{
+	width:400px;
+	background-color:green;
+	margin-bottom:20px;
+}
+p + p 
+{
+	background-color:yellow; 
+	margin-top:30px;
+}

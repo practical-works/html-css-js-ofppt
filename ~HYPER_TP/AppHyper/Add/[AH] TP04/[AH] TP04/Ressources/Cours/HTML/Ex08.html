@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Le langage HTML</title>
+		<meta charset = "utf-8" />
+	</head>
+	<body>
+		<form method = "post" action = "monsite.php">
+			<h1 align = "center">Eléments de formulaire</h1>
+		
+			<!-- Libellés -->
+			<h2>Libellés</h2>
+
+			<label style = "color:blue">Ceci est un label</label>
+			
+			<hr />
+			
+			<!-- Zones de texte monoligne -->
+			<h2>Zones de texte monoligne</h2>
+			
+			<input type = "text" value = "" placeholder = "Votre nom" size = "30" maxlength = "30" /> <br />
+			
+			<label for = "prénom">Prénom : </label>
+			<input type = "text" id = "prénom"/>
+
+			<hr />
+			
+			<!-- Zones de mot de passe -->
+			<h2>Zones de mot de passe</h2>
+			
+			<input type = "password" />
+			
+			<hr />
+			
+			<!-- Zones de texte multiligne -->
+			<h2>Zones de texte multiligne</h2>
+
+			<textarea id="commentaire" rows = "4" cols = "50"></textarea>
+			
+			<hr />
+			
+			<!-- Zones de saisie enrichies (HTML5) -->
+			<h2>Zones de saisie enrichies (HTML5)</h2>
+			
+			<input type = "number" min = "1" max = "10" step = "1" value="3" />
+			<input type = "range" min = "1" max = "10" step = "1" value="2" />
+			<input type = "color" />
+
+			<hr />
+			
+			<!-- Listes de selection -->
+			<h2>Listes de selection</h2>
+
+			<label>Première liste : Jours de la semaine : </label>
+			<select>
+				<option value = "lundi">Lundi</option>
+				<option value = "mardi">Mardi</option>
+				<option value = "mercredi" selected = "selected">Mercredi</option>
+				<option value = "jeudi">Jeudi</option>
+				<option value = "vendredi">Vendredi</option>
+				<option value = "samedi">Samedi</option>
+				<option value = "dima nche">Dimanche</option>
+			</select>
+
+			<br />
+			
+			<label>Deuxième liste (avec regroupement) : </label>
+			<select>
+				<optgroup label = "Première année">
+					<option value = "tps">TPS</option>
+					<option value = "lps">LPS</option>
+					<option value = "poo">POO</option>
+					<option value = "pe">PE</option>
+				</optgroup>
+				<optgroup label = "Deuxième année">
+					<option value = "sgbd1">SGBD1</option>
+					<option value = "sgbd2">SGBD2</option>
+					<option value = "ado">ADO.Net</option>
+				</optgroup>
+			</select>
+			
+			<hr />
+			
+			<!-- Cases à cocher -->
+			<h2>Cases à cocher</h2>	
+
+			<input type = "checkbox" id = "lundi" /> 
+			<label for = "lundi">Lundi</label>
+			
+			<input type = "checkbox" id = "mardi" /> 
+			<label for = "mardi">Mardi</label>
+		
+			<hr />
+			
+			<!-- Zones d'options -->		
+			<h2>Zones d'options</h2>
+			
+			<input type = "radio" name = "age" id = "moins20" /> 
+			<label for = "moins20">Moins de 20</label>
+			
+			<input type = "radio" name = "age" id = "entre20Et40" /> 
+			<label for = "entre20Et40">Entre 20 et 40</label>
+			
+			<input type = "radio" name = "age" id = "plus40" /> 
+			<label for = "plus40">Plus que 40</label>
+
+			<hr />
+			
+			<!-- Fieldsets -->
+			<fieldset>
+				<legend align = "center">Quelque chose</legend>
+				
+				<label for = "email">E-Mail : </label>
+				<input type = "text" id = "email">
+			</fieldset>
+			
+			<hr />
+			
+			<!-- Buttons -->
+			<h2>Buttons</h2>
+			
+			<input type = "button" value = "Salam" onclick = "alert('Salam')"/>
+			<input type = "submit" value = "OK" />
+			<input type = "reset" value = "Réinitialiser" />
+			<button>Ceci est un <b>button</b></button>
+		</form>
+	</body>
+</html>

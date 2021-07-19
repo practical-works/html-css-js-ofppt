@@ -1,0 +1,26 @@
+p
+{
+	background-color:yellow;
+	width:300px;
+	border:1px solid black;
+	margin:5px;
+	float:left;
+}
+p:first-child
+{
+		background-color:plum;
+}
+p:last-child
+{
+		clear:left;
+}
+
+div
+{
+	width:500px;
+	height:200px;
+	
+	padding:5px;
+	background-color:palegreen;
+	border:1px solid black;
+}

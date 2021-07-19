@@ -1,0 +1,7 @@
+Modules du premier semestre :
+Système de gestion de bases de données I
+Analyse et conception orientée objet
+Introduction aux réseaux informatiques
+Système de gestion de bases de données II
+Programmation Client-serveur
+Applications hypermédias

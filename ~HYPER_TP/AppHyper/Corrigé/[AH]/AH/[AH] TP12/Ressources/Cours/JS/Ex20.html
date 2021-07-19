@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>JavaScript 20</title>
+		<meta charset = "utf-8" />
+		
+		<script src = "js/Ex20.js">
+		</script>
+	</head>
+	<body>
+		<form>
+			<input type = "text" id = "texte_1" value = "Un texte en lecture seule"/>
+			
+			<br /> <br />
+			
+			<label> Color : </label>
+			<input type = "image" src = "img/Bleu.png" onclick = "colorerTexte('bleu'); return false;" />
+			<input type = "image" src = "img/Gris.png"  onclick = "colorerTexte('gris'); return false;" />
+			<input type = "image" src = "img/Rouge.png"  onclick = "colorerTexte('rouge'); return false;" />
+			
+			<br /> <br />
+			
+			<label> Background color : </label>
+			<input type = "image" src = "img/Jaune.png"  onclick = "colorerBackground('jaune'); return false;" />
+			<input type = "image" src = "img/Vert.png"   onclick = "colorerBackground('vert'); return false;" />
+			
+			<br /> <br />
+			
+			<input type = "button" value = "Par défaut" onclick = "parDefaut(); return false;" />
+		</form>
+		
+		<script>
+			initialiser();
+		</script>
+	</body>
+</html>

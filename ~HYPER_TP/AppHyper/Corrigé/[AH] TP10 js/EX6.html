@@ -1,0 +1,47 @@
+﻿<html>
+	<head>
+		<title>Exercice 6</title>
+		<meta charset = "utf-8" />
+		<style>
+			table, td
+			{
+				border:1px solid blue;
+			}
+			table
+			{
+				border-collapse:collapse;
+				width:200px;
+			}
+			tr
+			{
+				height:50px;
+				text-align:center;
+			}
+			input[type="button"]
+			{
+				width:80px;
+			}
+		</style>
+		<script src="Js/EX6.js">
+		</script>
+	</head>
+	<body>
+		<form name="form_calculette">
+			<table>
+				<tr>
+					<td colspan = "2">
+						<input type = "text" name = "text_nombre"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type = "button" value = "Euro" onclick = "euro()" />
+					</td>
+					<td>
+						<input type = "button" value = "Dirham" onclick = "dirham()" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ex7</title>
+</head>
+<body onload="alert('Chargement de la page')" 
+	  onkeypress="alert('Appuie sur touche clavier')">
+	<img src="vert.bmp" onmouseover="alert('Passage sur image')">
+	<input type="button" value="Cliquer ici" onclick="alert('Clique sur button')">
+</body>
+<script type="text/javascript" language="javascript">
+   	window.onbeforeunload = function() {
+       alert('Fermeture de la page !');
+   	};
+</script>
+</html>

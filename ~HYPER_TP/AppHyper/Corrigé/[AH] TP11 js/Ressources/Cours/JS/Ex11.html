@@ -1,0 +1,41 @@
+﻿<html>
+	<head>
+		<title>Javascript 11</title>
+		<meta charset = "utf-8" />
+		
+		<script src = "js/Ex11.js">
+		</script>
+	</head>
+	<body>
+		<form name = "form_1">
+			<input type = "text" name = "text_1" />
+			<input type = "button" value = "Afficher" onclick = "afficher()"/>
+			<input type = "text" name = "text_2" />
+		</form>
+		
+		<form name = "form_2">
+			<input type = "text" name = "text_1" />
+			<input type = "button" value = "Identité" onclick = "vousEtes()"/>
+		</form>
+		
+		<form name = "form_3">
+			<input type = "text" name = "txt_nombre" />
+			<input type = "button" value = "Parité" onclick = "parite()"/>
+		</form>
+		
+		<form name = "form_4">
+			<input type = "text" name = "txt_nombre" />
+			<input type = "button" value = "Signe" onclick = "signe(txt_nombre.value)"/>
+		</form>
+		
+		<form name = "form5">
+			<label>Nombre :</label>
+			<input type = "text" name = "txt_nombre" />
+			
+			<input type = "button" value = "Calculer le carré" onclick = "txt_Carre.value = carre(txt_nombre.value)"/>
+			
+			<label>Carré :</label>
+			<input type = "text" name = "txt_Carre" />
+		</form>
+	</body>
+</html>

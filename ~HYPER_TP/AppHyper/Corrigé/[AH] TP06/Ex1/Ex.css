@@ -1,0 +1,14 @@
+
+strong
+{
+	color : blue;
+
+}
+
+h1
+{
+	border:Solid 1px red;
+	color:green;
+	background-color:#FFFF00;
+	text-transform: uppercase;
+}

@@ -1,0 +1,21 @@
+*
+{
+	/* padding:0px;
+	margin:0px; */
+}
+
+p
+{
+	background-color:yellow;
+	width:200px;
+	padding:10px;
+	margin:5px;
+	border: 5px solid black;
+}
+span
+{
+	position:relative;
+	background-color:plum;
+	left:4px;
+	top:50px;
+}

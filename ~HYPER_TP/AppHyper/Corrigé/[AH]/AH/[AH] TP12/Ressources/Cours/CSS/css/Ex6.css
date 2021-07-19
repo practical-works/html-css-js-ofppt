@@ -1,0 +1,23 @@
+﻿/*Sélecteur de classe*/
+.p1
+{
+	color:blue;
+	border:solid 2px aqua;
+	text-align:justify;
+}
+.p2
+{
+	color:red;
+	background-color:yellow;
+	text-align:center;
+}
+.style1
+{
+	color:navy;
+	font-weight:bold;
+}
+.style2
+{
+	background-color:lime;
+	text-decoration:underline;
+}

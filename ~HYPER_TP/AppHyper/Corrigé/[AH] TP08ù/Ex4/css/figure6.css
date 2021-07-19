@@ -1,0 +1,39 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+body>div
+{
+	background-color:green;
+	padding:2px;
+	width:400px;
+	border:1px solid black;
+	margin:2px;	
+	position:relative;
+}
+p
+{	
+	border:1px solid black;
+	margin:3px; 
+	background-color:orange;	
+	
+}
+p:first-child
+{	
+	background-color:yellow;
+}
+p:last-child
+{
+	background-color:plum;
+	clear:right;
+	/* clear:both; */
+}
+p:nth-child(2)
+{	
+	float:right;
+}
+/* p:last-child
+{
+	height:90px;
+} */

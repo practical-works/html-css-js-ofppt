@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HYPER_EFM_2016</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<form action="" method="post" onsubmit="return Envoyer(this)">
+			<fieldset>
+				<legend>Inscription</legend>
+				<label>Sexe :</label><br>
+				<input type="radio" name="sexe" id="h"><label for="h">Homme</label>
+				<input type="radio" name="sexe" id="f"><label for="f">Femme</label>
+				<br>
+				<label for="nom">Nom :</label><br>
+				<input type="text" name="nom" id="nom">
+				<br>
+				<label for="prenom">Prénom :</label><br>
+				<input type="text" name="prénom" id="prenom">
+				<br>
+				<label for="age">Äge :</label><br>
+				<input type="text" name="age" id="age">
+				<br>
+				<label for="pseudo">Pseudo :</label><br>
+				<input type="text" name="pseudo" id="pseudo">
+				<br>
+				<label for="pass">Mot de passe :</label><br>
+				<input type="password" name="pass" id="pass">
+				<br>
+				<label for="pass2">Mot de passe (Confirmation) :</label><br>
+				<input type="password" id="pass2">
+				<br>
+				<label>Pays :</label><br>
+				<select name="pays">
+					<option selected>Sélectionnez votre pays de résidence</option>
+					<option>Maroc</option>
+					<option>Algérie</option>
+					<option>Tunisie</option>
+					<option>Mauritanie</option>
+					<option>Lybie</option>
+				</select>
+				<br><br>
+				<input type="checkbox" name="news" id="news">
+				<label for="news">Je désire recevoir la newsletter chaque mois</label><br>
+				<br>
+				<input type="submit"><input type="reset">
+			</fieldset>
+		</form>
+	</body>
+	<script type="text/javascript" src="scripts.js"></script>
+</html>

@@ -1,0 +1,50 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+div
+{
+	/* background-color:green; */
+	width:10px;
+	height:10px;
+	margin:2px;
+}
+div:first-child
+{
+	background-color:palegreen;
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+
+div:last-child
+{
+	background-color:orange;
+	position:absolute;
+	left:30px;
+	top:30px;
+}
+div:nth-child(2)
+{
+	background-color:yellow;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+div:nth-child(3)
+{
+	background-color:aliceblue;
+	position:absolute;
+	left:20px;
+	top:20px;
+}
+/* body>div
+{
+	position:relative;
+	width:100px;
+	height:100px;
+	background-color:pale;
+	border:1px solid blue;
+}
+ */

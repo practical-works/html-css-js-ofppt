@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Javascript 16</title>
+		<meta charset = "utf-8" />
+		
+		<script src = "js/EX02.js">
+		</script>
+	</head>
+	<body>
+		<form name = "form_1">
+		
+		
+			<input type = "image"  src="images/Premier.png"  onclick="Precedant(premier) ;return false ;"/>
+			<input type = "image" src="images/Précédent.png"  onclick="Precedant(precedent) ;return false ;"/>
+			<input type = "text" id = "Text" value="Lundi" name="jour" />
+			<input type = "image"  src="images/Suivant.png" onclick="Suivant(suivant);return false ;"/>
+			<input type = "image" src="images/Dernier.png"  onclick="Suivant(dernier) ;return false ;"/>
+			
+			<script>
+				Initialiser()
+			</script>
+			
+		</form>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 120%;
+	background-color: gray;
+}
+.haut, .gauche, .droit, .centre {
+	text-align: center;
+	position: absolute;
+}
+.haut {
+	background-color: white;
+	border: 1px dashed black;
+	z-index: 3;
+	width: 60%;
+	right: 20%;
+	left: 20%;
+}
+.haut img {
+	
+	width: 20%;
+	float: left;
+}
+.gauche {
+	background-color: white;
+	border: 1px dashed black;
+	padding: 10% 0px;
+	z-index: 2;
+	width: 15%;
+	top: 20%;
+}
+.gauche a {
+	font-weight: bold;
+	font-size: 150%;
+}
+.droit {
+	left: 75%;
+	top: 7%;
+	z-index: 5;
+}
+.droit img {
+	border: 1px dotted black;
+}
+.centre {
+	background-color: white;
+	border: 1px dashed black;
+	padding: 20% 0px;
+	z-index: 1;
+	width: 80%;
+	right: 10%;
+	left: 10%;
+	top: 10%;
+}

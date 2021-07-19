@@ -1,0 +1,25 @@
+body {
+	background-color: white;
+	font-family: Verdana;
+	color: black;
+}
+h1 {
+	color: blue;
+	text-align: center;
+}
+h2 {
+	color: red;
+	text-indent: 15px;
+}
+a {
+	color: gray;
+}
+a:hover {
+	text-decoration: none;
+}
+.test {
+	color: pink;
+}
+p span {
+	color: yellow;
+}

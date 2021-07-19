@@ -1,0 +1,138 @@
+﻿/* 
+Page (3.50)
+	Positionnement (centre)			1.00
+	Bordures						0.50
+	Couleur							0.50
+	Marge interne					1.00
+	Justification du texte			0.50 
+*/
+
+#globale
+{
+	width:800px;
+	margin:auto;
+	border:1px dotted orange;
+	padding:5px;
+	text-align:justify;
+	background-color:white;
+}
+body
+{
+	background-color:lightyellow;
+}
+/* 
+Titre (2.00) 
+	Alignement de texte (centre)	0.25
+	Cadres	
+		Bordures					0.75
+		Coins arrondis				0.75
+		Couleurs					0.25 
+*/
+h1
+{
+	text-align:center;
+	border:1px solid orange;
+	border-radius:5px;
+	margin:5px;
+}
+.titre
+{
+	border:1px solid orange;
+	border-radius:5px;
+	margin:5px;
+}
+/* 
+Citation (1.75) 
+	Image 							0.50
+	Couleur							0.25
+	Positionnement					1.00 
+*/
+
+.citation
+{
+	color:orange;
+	width:350px; 
+	float:right;
+}
+.spacer
+{
+	clear:right;
+}
+.citation:before
+{
+	content:url("../img/Citation.png");
+}
+/* 
+Menu (1.25) 
+	Couleur							0.25
+	Puce							0.50
+	Positionnement					0.50 
+*/
+#menu li
+{
+	background-color:lemonchiffon;
+	margin:3px;
+	list-style:none;
+}
+/* 
+Axes (1.25)
+	Première lettre	
+		Taille						0.50
+		Couleur						0.50
+	Bordure							0.25 
+*/
+.premierLettre
+{
+	color:goldenrod;
+	font-size:40px;
+}
+h2
+{
+	border-bottom:1px solid goldenrod;
+}
+/* 
+Liste des personnes (0.50)
+	Image							0.50 
+*/
+.liste
+{
+	list-style-image:url("../img/Personne.png");
+}
+/* 
+Cycle de vie (1.50)
+	Couleurs						0.50
+	Positionnement					0.50
+	Bordures						0.50 
+*/
+td
+{
+	border:1px solid goldenrod;
+}
+table
+{
+	margin:auto;
+}
+.impaire
+{
+	background-color:lightyellow;
+}
+.paire
+{
+	background-color:lemonchiffon;
+}
+/* 
+Méthodes et pratiques de développement (3.50)
+	Méthode	
+		Positionnement				1.50
+		Couleur						0.25
+		Bordures					0.25
+	Définition						1.50 
+*/
+.methode
+{
+	border:1px solid orange;
+	background-color:lemonchiffon;
+	width: 68px;
+	float: left;
+}
+

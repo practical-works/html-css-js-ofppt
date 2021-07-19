@@ -1,0 +1,50 @@
+﻿*
+{
+	margin : 0px;
+	padding : 0px;
+}
+body
+{
+	max-width : 600px;
+	margin : auto;
+	margin-top : 50px;
+}
+div
+{
+	background-color : AliceBlue;
+	padding-left : 20px;
+	border : 1px solid DarkTurquoise;
+	border-radius : 5px;
+}
+
+p
+{
+	margin-top : 10px;
+}
+
+pre
+{
+	background-color :white ;
+	padding : 20px;
+	width : 90%;
+	margin : auto;
+	margin-top : 5px;
+	margin-bottom : 8px;
+	border-radius : 5px;
+	border : 1px solid green;
+	border-left : 2px solid green;
+	border-right : 2px solid green;
+	color : red;
+	font-weight : bold;
+}
+h2
+{
+	font-size : 16px;
+	font-weight : bold;
+	margin : 10px;
+}
+
+h2>span
+{
+	color : green;
+}

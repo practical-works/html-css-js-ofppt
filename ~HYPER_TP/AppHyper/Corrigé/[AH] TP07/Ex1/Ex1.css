@@ -1,0 +1,18 @@
+.t
+{
+	border-left: solid blue;
+} 
+td:last-child
+{
+	border-right:solid blue;
+}
+table
+{	
+	color:Orange;
+	text-align:center;
+	background-color:khaki;/* MintCream */
+	border-collapse:collapse;
+	width:50%;
+	height:50%;
+	/* border:none; */
+}

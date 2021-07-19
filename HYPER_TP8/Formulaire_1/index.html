@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<title>Formulaire</title>
+	</head>	
+	<body>
+		<form action="" onsubmit="" method="post">
+			<fieldset id="infos_connex">
+				<legend>Informations de connexion</legend>
+				
+				<label for="id">Numéro d'identification:</label><br>
+				<input type="number" id="id"><br>
+				
+				<label for="login">Nom d'utilisateur:</label><br>
+				<input type="text" id="login"><br>
+				
+				<label for="pass:">Mot de passe:</label><br>
+				<input type="password" id="pass"><br>
+				
+				<label for="email">Adresse E-mail:</label><br>
+				<input type="email" id="email"><br>
+			</fieldset>
+			<fieldset id="infos_perso">
+				<legend>Informations personelles</legend>
+				
+				<label for="nom">Nom:</label><br>
+				<input type="text" id="nom" name="nom"><br>
+				
+				<label for="prenom">Prénom:</label><br>
+				<input type="text" id="prenom" name="prenom"><br>
+				
+				<label>Sexe:</label><br>
+				<input type="radio" id="m" name="sexe"><label for="m">Homme</label>
+				<input type="radio" id="f" name="sexe"><label for="f">Femme</label><br>
+				
+				<label for="dateNaiss">Date de naissance:</label><br>
+				<input type="date" id="dateNaiss" name="dateNaiss"><br>
+				
+				<label for="pays">Pays d'origine:</label><br>
+				<select id="pays" name="pays">
+					<option value="" selected="selected">Choisir Pays</option>
+					<optgroup label="Nord Afrique">
+						<option value="mar">Maroc</option>
+						<option value="alg">Algérie</option>
+						<option value="tun">Tunisie</option>
+						<option value="lby">Libye</option>
+						<option value="mau">Mauritanie</option>
+					</optgroup>
+					<optgroup label="Afrique-Asie">
+						<option value="egy">Égypte</option>
+						<option value="sdn">Soudan</option>
+						<option value="arb">Arabie Saoudite</option>
+						<option value="irk">Irak</option>
+						<option value="kwt">Kuwait</option>
+						<option value="syr">Syrie</option>
+						<option value="lbn">Liban</option>
+						<option value="jrn">Jordanie</option>
+						<option value="pal">Palestine</option>
+					</optgroup>
+				</select><br>
+				
+				<label for="langue">Langues maîtrisées:</label><br>
+				<input type="checkbox" id="ar" name="langue"><label for="ar">Arabe</label>
+				<input type="checkbox" id="fr" name="langue"><label for="fr">Français</label>
+				<input type="checkbox" id="en" name="langue"><label for="en">Anglais</label>
+			</fieldset>
+			<fieldset id="infos_show">
+				<legend>Aperçu des infromations</legend>
+				<p id="box">
+					<button onclick="show(this.form)">Afficher</button>
+				</p>
+			</fieldset>
+		</form>
+	</body>
+	<script src="script.js"></script>
+</html>

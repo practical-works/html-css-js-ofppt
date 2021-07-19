@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- HEAD **************************************************** -->
+	<head>
+		<meta charset="UTF-8">
+        <link rel="stylesheet" href="STYLE_2.CSS">
+		<title>FORMULAIRE II</title>
+	</head>
+
+<!-- BODY **************************************************** -->
+	<body>
+		
+		<form action="STRUCTURES DU LANGAGE_2.html">
+            <fieldset>
+
+                <legend>Formulaire</legend>
+                
+                <label for="sexe">Sexe</label><br>
+                <input class="checkBox" name="sexe" type="radio" value="M" id="m"><label for="m">Homme</label>
+                <input class="checkBox" name="sexe" type="radio" value="F" id="f"><label for="f">Femme</label>
+
+                <br><br>
+                
+                <label for="nation">Nationalité</label><br>
+                <select class="comboBox" name="nationalite" id="nation">
+                	<option value="null">Choisir nationalité</option>
+                	<option value="mar">Maroc</option>
+					<option value="alg">Algérie</option>
+					<option value="tun">Tunisie</option>
+					<option value="lby">Libye</option>
+					<option value="mau">Mauritanie</option>
+                </select>
+
+                <br><br><br>
+
+                <input class="button" type="submit" value="Valider" onsubmit="check(this.form)">
+
+            </fieldset>          
+        </form>
+	</body>
+
+<!-- SCRIPT **************************************************** -->
+    <script src="SCRIPT_2.JS"></script>
+
+</html>

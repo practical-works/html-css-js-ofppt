@@ -1,0 +1,23 @@
+.smestre
+{
+	color:green;
+	list-style-image:url('Puce_Verte.png');
+	
+}
+.année
+{
+	color:gray;
+	list-style-image:url('Puce_Grise.png');
+	
+}
+/* .semestre li */
+li
+{
+	color:blue;
+	list-style-image:url('Puce_Bleu.png');
+}
+body>ul
+{
+	background-color:PapayaWhip;
+	border:3px solid blue;
+}

@@ -1,0 +1,63 @@
+body {
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 120%;
+}
+form {
+	border: 1px solid black;
+	width: 50%;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: silver;
+}
+#F {
+	border: 1px solid black;
+	width: 90%;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: black;
+}
+table {
+	background-color: white;
+	margin: 0px auto;
+	box-shadow: 0px 0px 100px white;
+}
+input[type="button"], input[type="reset"] {
+	box-shadow: 5px 5px 0px black;
+	background-color: skyblue;
+	border: 1px solid black;
+	padding: 10px 10px;
+	width: 100px;
+}
+input[type="button"]:hover, input[type="reset"]:hover {
+	background-color: orange;
+	cursor: pointer;
+	box-shadow: 5px 5px 5px black;
+}
+input[type="text"] {
+	font-weight: bold;
+	box-shadow: 5px 5px 0px black;
+	background-color: silver;
+	border: 1px solid black;
+	padding: 10px 10px;
+	width: 500px;
+}
+input[type="text"]:hover {
+	background-color: white;
+	box-shadow: 5px 5px 5px black;
+}
+input[type="checkbox"] {
+	margin: 10px 0px;
+}
+#captcha_label {
+	font-size: 200%;
+	box-shadow: 5px 5px 0px black;
+	background-color: moccasin;
+	border: 1px solid black;
+	padding: 10px 100px;
+	width: 500px;
+	margin: 10px auto;
+}
+table td {
+	padding: 10px;
+	border: 1px solid black;
+}

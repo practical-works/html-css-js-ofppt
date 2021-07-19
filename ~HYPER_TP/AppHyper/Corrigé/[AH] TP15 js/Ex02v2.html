@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 2 V2</title>
+	<script src="js/Ex02v2.js"></script>
+	<style>
+		input[type="text"]:focus
+		{
+			//background-color:yellow;
+		}
+	</style>
+</head>
+<body>
+	<form name="Formulaire">
+		<table border="0">
+			<tr>
+				<td>Prix hors taxe :</td>
+				<td><input type="text" id="Prix" name="Prie" onfocus="colorer()" /></td>
+				<td id="er3"><span><img id="Priximg"/><p></p></span></td>
+			</tr>
+			<tr>
+				<td>TVA :</td>
+				<td><input type="text" id="TVA" name="TVA"/></td>
+				<td id="er2"><span><img id="tvaimg"/><p></p></span></td>
+			</tr>
+			<tr>
+				<td>Réduction :</td>
+				<td><input type="text" id="Réduction" name="Réduction"></td>
+				<td id="er3"><span><img id="reductionimg"/><p></p></span></td>
+			</tr>
+			<tr>
+				<td>PTTC :</td>
+				<td><input type="text" id="PTTC" name="PTTC" disabled /></td>
+			</tr>
+			<tr>
+				<td colspan = "2" align = "center">
+					<input type = "submit" value = "Calculer" onclick="Calculer();retun false" />
+					<input type = "reset" value = "Rénisialiser" />
+				</td>
+			</tr>
+		</table>
+	</form>
+	<script>instial();</script>
+</body>
+</html>

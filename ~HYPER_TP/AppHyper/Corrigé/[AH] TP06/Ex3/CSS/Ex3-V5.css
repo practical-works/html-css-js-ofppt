@@ -1,0 +1,17 @@
+table
+{
+    border-collapse: collapse;
+}
+
+table,td, tr,th
+{
+    border: 1px solid black;
+}
+.title
+{
+	background-color:LightSalmon;
+}
+.ligne
+{	
+	background-color:bisque;
+}

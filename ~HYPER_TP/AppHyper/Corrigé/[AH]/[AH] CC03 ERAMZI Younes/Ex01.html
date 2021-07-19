@@ -1,0 +1,34 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Exercice 1</title>
+		<meta charset = "utf-8" />
+		<script src = "js/Ex01.js"></script>
+	</head>
+	<body>
+		<form name="f1">
+			<label>A : </label>
+			<input type="text" id="A">
+			<br />
+			
+			<label>Opération : </label>
+			<select id="operation">
+				<option>+</option>
+				<option>-</option>
+				<option>*</option>
+				<option>/</option>
+			</select>
+			<br />
+			
+			<label>B : </label>
+			<input type="text" id ="B">
+			<br />
+			
+			<button onclick = "calculer();return false">Calculer</button>
+			<br />
+			
+			<label>Résultat : </label>
+			<input type="text" disabled id="résultat">
+		</form>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>LES BOITES DE DIALOGUE</title>
+	</head>
+
+	<body>
+		
+	</body>
+
+	<script type="text/javascript">
+
+	function message() {
+		alert('Hello World!');
+	}
+	document.write('<input type="button" value="Click Me" onclick="message()">');
+	
+	var nom = prompt("Entrez votre nom :");
+	if (nom.trim() != "") {
+		var ok = confirm("Votre nom est-il correct ?");
+		if (ok) {
+			alert("Votre nom est " + nom);
+		}
+	} else {
+		alert("Vous n'avez rien entré!");
+	}
+
+	</script>
+
+</html>

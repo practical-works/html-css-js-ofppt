@@ -1,0 +1,41 @@
+
+tr:first-Child  
+{
+	border-collapse:collapse;
+	text-align:center;
+}
+
+.td,.money
+{	
+	border:1px solid black;
+}
+
+TABLE
+{
+	border-collapse:collapse;
+	text-transform:uppercase;
+	width:100%;
+}
+
+.money
+{
+	text-align:right;
+}
+
+tr:nth-child(2), tr:last-Child 
+{
+	background-color:Gainsboro;
+	color:red;
+}
+
+tr:nth-child(2n+3) 
+{
+	background-color:LightCyan;
+}
+
+tr:nth-child(4) ,tr:nth-child(6)
+{
+	background-color:Linen;
+}
+
+

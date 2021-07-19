@@ -1,0 +1,28 @@
+
+.tr1
+{
+	border-collapse:collapse;
+	text-align:center;
+	
+}
+.tr2,.td,.money
+{	
+	
+	border:1px solid black;
+	/*font-weight: bold;*/
+	font-variant: small-caps;
+	
+}
+TABLE
+{
+	border-collapse:collapse;
+	
+}
+.tr3
+{
+	color:red;
+}
+.money
+{
+	text-align:right;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Captcha</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="generer()">
+	<form>
+		<label id="captcha_label">00000</label><br><br>
+		<input type="text" id="captcha_text">
+		<input type="button" id="verifier" value="Vérifier" onclick="check()">
+	</form>
+</body>
+<script type="text/javascript">
+	function generer() {
+		var c1 = Math.floor(Math.random()*10);
+		var c2 = Math.floor(Math.random()*10);
+		var c3 = Math.floor(Math.random()*10);
+		var c4 = Math.floor(Math.random()*10);
+		var c5 = Math.floor(Math.random()*10);
+		document.getElementById("captcha_label").innerHTML = c1+""+c2+""+c3+""+c4+""+c5;
+	}
+	function check() {
+		//var code_captcha = (c1*10000)+(c2*1000)+(c3*100)+(c4*10)+c5;
+		var code_captcha = document.getElementById("captcha_label").textContent;
+		var code_saisi = document.getElementById("captcha_text").value;
+		if (code_saisi == code_captcha) {
+			alert("ok");
+		} else {
+			alert("Code incorrect ! ");
+			generer();
+		}
+	}
+</script>
+</html>

@@ -1,0 +1,29 @@
+
+ul
+{
+	color:maroon;
+	
+}
+body>ul>li
+{
+	list-style-image:url('../img/Disque.png');
+}
+.dossier
+{
+	list-style-image:url('../img/Dossier.png');
+}
+.html
+{
+	list-style-image:url('../img/HTML.png');
+}
+#css
+{
+	list-style-image:url('../img/CSS.png');
+}
+#img
+{
+	list-style-image:url('../img/Image.png');
+}
+
+
+/* file:///C:/Users/Youssef/Desktop/[AH]TP07/Ex2/img/CSS.png */

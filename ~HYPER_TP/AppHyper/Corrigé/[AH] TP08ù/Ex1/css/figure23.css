@@ -1,0 +1,23 @@
+p
+{
+	background-color:yellow;
+	width:150px;
+	border:1px solid black;
+	margin-left:5px;
+	
+	float:left;
+}
+p:last-child
+{
+	background-color:plum;
+	clear:both;
+}
+div
+{
+	width:500px;
+	height:350px;
+	
+	/* padding:5px; */
+	background-color:palegreen;
+	border:1px solid black;
+}

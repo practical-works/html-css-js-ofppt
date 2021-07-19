@@ -1,0 +1,41 @@
+﻿<html>
+	<head>
+		<title>Javascript 24</title>
+		<meta charset = "utf-8" />
+		
+		<script src = "js/Ex24.js">
+		</script>
+	</head>
+	<body>
+		<form id = "form_1">
+			<label for = "languages">
+				Langages de programmation préférés :	
+			</label>
+			
+			<br /><br />
+			
+			<select id = "languages" multiple>
+				<option>C</option>
+				<option>C#</option>
+				<option>HTML</option>
+				<option>SQL</option>
+			</select>
+			
+			<br /><br />
+			
+			<input type = "text" id = "texte" />
+			<input type = "button" value = "Ajouter" onclick = "ajouter()" />
+			
+			<br /><br />
+			
+			<input type = "button" value = "Votre sélection" onclick = "votreSelection()" />
+			<label for = "languages">
+				<b>(Pour faire plusieurs choix, maintenez la touche CTRL enfoncée)</b>
+			</label>
+		</form>
+		
+		<script>
+			initialiser();
+		</script>
+	</body>
+</html>

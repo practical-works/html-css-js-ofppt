@@ -1,0 +1,47 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    width: 800px;
+    margin : auto auto;
+    padding: 10px;
+}
+
+h1
+{
+    background-color: lemonchiffon;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+div>div
+{
+    background-color: bisque;
+    margin-top: 7px;
+    padding: 5px;
+    width: 610px;
+    float: right;
+}
+
+h2
+{
+    background-color: white;
+}
+
+ul
+{
+    list-style-type: none;
+    border: 1px solid blue;
+    width: 170px;
+    margin-top: 7px;
+    float: left;
+}
+
+h2:before
+{
+	content:url('image.png') ' ';
+}

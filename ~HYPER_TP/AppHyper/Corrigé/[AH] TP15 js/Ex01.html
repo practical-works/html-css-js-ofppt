@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 1</title>
+	
+	<style> #col {color:red;} body {margin-left:30%;} </style>
+	<script src="js/Ex01.js"></script>
+	
+	
+</head>
+
+
+<body>
+	<h1>Vos cordonnées :</h1>
+	<p id="col">(*) ces zones son obligatoires pour envoyer le formulaire</p>
+	<form name="Formulaire" action="MAILTO:abc@xyz.com" method="post" enctype="text\plain">
+		<table border="0">
+			<tr>
+				<td>Société :</td>
+				<td><input type="text" id="1" name="Société"/></td>
+				<td id="col">*</td>
+			</tr>
+			<tr>
+				<td>Personnes à contacter :</td>
+				<td><input type="text" id="2" name="Personnes"/></td>
+				<td id="col">*</td>
+			</tr>
+			<tr>
+				<td>Adresse :</td>
+				<td><textarea id="3" rows = "4" cols = "30" placeholder = "" ></textarea></td>
+				<td id="col">*</td>
+			</tr>
+			<tr>
+				<td>Code postal :</td>
+				<td><input type="text" id="4" name="Codepostal"></td>
+				<td id="col">*</td>
+			</tr>
+			<tr>
+				<td>Ville :</td>
+				<td><input type="text" id="5" name="Ville"/></td>
+				<td id="col">*</td>
+			</tr>
+			<tr>
+				<td>E-Mail :</td>
+				<td><input type="text" id="E-Mail"/></td>
+				<td id="col">*</td>
+			</tr>
+			<tr>
+				<td>Téléphone :</td>
+				<td><input type="text" id="Téléphone"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<select id="Choix" onchange='Choisissez(this.id,"Envirenement")'>        		
+						<option value="choisissez">choisissez</option>
+						<option value="Delphi">Delphi</option>
+						<option value="WinDev">WinDev</option>
+						<option value="Visuel Basic">Visuel Basic</option>
+						<option value="Internet">Internet</option>
+						<option value="Intranet">Intranet</option>
+						<option value="Unix">Unix</option>
+						<option value="SQL Server">SQL Server</option>
+						<option value="Oracle">Oracle</option>
+						<option value="Autre">Autre...</option>
+						<!-- ................. -->						
+					<select>
+				</td>
+			</tr>
+			<tr>
+				<td>Envirenement téchnique :</td>
+				<td><textarea id="Envirenement" rows = "4" cols = "30" placeholder = "" ></textarea></td>
+			</tr>
+			<tr>
+				<td colspan = "2" align = "center">
+					<input type = "submit" value = "Envoyer" onclick="return validation()" />
+					<input type = "reset" value = "Effacer" onclick="reset()" />
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

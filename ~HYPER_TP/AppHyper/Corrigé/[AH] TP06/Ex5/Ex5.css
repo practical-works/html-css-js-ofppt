@@ -1,0 +1,45 @@
+﻿a
+{
+	border: 1px dashed gray;
+	color:green;
+}
+h1,h2
+{
+	color:green;
+	border-bottom:2px solid darkorange;	
+}
+a:Hover
+{
+	color:darkorange;
+	border: 1px solid gray;
+}
+a:visited
+{
+	color:red;
+	border: 1px dashed gray;
+}
+a :visited:hover 
+{
+	color:blue;
+	border: 1px dashed gray;
+}
+ul
+{
+	
+	list-style-image:url('Ex5.png');
+	padding-left:50px;
+}
+th/*déférent balis ayant le meme nom de class */
+{
+	background-color:YellowGreen;
+}
+td,th
+{
+	border:1px solid green;
+}
+
+/* ul>li:hover
+{
+	 font-size:30px;
+}
+ */

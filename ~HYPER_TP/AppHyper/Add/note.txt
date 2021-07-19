@@ -1,0 +1,22 @@
+isNan()
+ParseInt(...)
+.tostring()
+
+30 caractére pas 30px dans la largeur
+
+10*11.0225 = 110,225 => probléme de calcule - diferance entre undefinded et null
+
+
+function mydouble(nembre)
+{
+	return nembre*2; !!!
+}
+
+form = 2form si en a une seul variable c'est à dire en a le chois de ne pas nommé les form 
+
+return false 		    => pour ne pas envoyer une reqrtte aux serveur a tester
+input de type image submit  => 
+
+\n => alert
+<br/> => document
+ 

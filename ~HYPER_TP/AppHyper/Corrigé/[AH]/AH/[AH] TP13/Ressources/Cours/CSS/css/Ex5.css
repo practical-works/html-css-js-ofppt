@@ -1,0 +1,33 @@
+﻿/*Sélecteur de type*/
+body
+{
+	color:blue;
+	font-size:1.5em;
+	
+	/* Les balises contenues dans body vont hériter ces propriétés --> Héritage */
+}
+/*Sélecteur de type*/
+s
+{
+	color:red;
+}
+/*Sélecteur de type*/
+em, s /* On peut combiner (regrouper) plusieurs sélecteurs */
+{
+	background-color:yellow;
+}
+/*Sélecteur de type*/
+strong
+{
+	color:green;
+}
+/*Sélecteur d'enfant*/
+p  > u
+{
+	border:dashed 1px fuchsia;
+}
+/*Sélecteur descendant (contextuel)*/
+p u
+{	
+	font-size:2em;
+}

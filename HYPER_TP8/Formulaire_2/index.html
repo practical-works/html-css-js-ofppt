@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<title>Formulaire</title>
+	</head>	
+	<body>
+		<form action="page.aspx" target="_blank" onsubmit="return check(this)">
+			<fieldset id="client">
+				<legend>Client</legend>
+				<!-- ********************************************************************************** -->
+				<!-- ********************************************************************************** -->
+				<label for="id">Numéro:</label><br>
+				<input type="number" id="id"><br>
+				<label class="_champs" id="_id"> * Champs obligatoire</label><br>
+				<!-- ********************************************************************************** -->
+				<label for="nom">Nom:</label><br>
+				<input type="text" id="nom">
+				<label class="_champs" id="_nom"> * Champs obligatoire</label><br>
+				<!-- ********************************************************************************** -->
+				<label for="email">Email:</label><br>
+				<input type="email" id="email"><br>
+				<label class="_champs" id="_email"> * Champs obligatoire</label><br>
+				<!-- ********************************************************************************** -->
+				<label for="cp">Code Postal:</label><br>
+				<input type="text" id="cp"><br>
+				<label class="_champs" id="_cp"> * Champs obligatoire</label><br>
+				<!-- ********************************************************************************** -->
+				<label for="ville">Ville:</label><br>
+				<select id="ville" name="ville">
+					<option value="" selected="selected">Choisir Ville</option>
+					<option value="kech">Marrakech</option>
+					<option value="casa">Casablanca</option>
+					<option value="Rab">Rabat</option>
+					<option value="tan">Tanger</option>
+				</select><br>
+				<label class="_champs" id="_ville"> * Champs obligatoire</label><br>
+				<!-- ********************************************************************************** -->
+				<label for="langue">Langues:</label><br>
+				<input type="checkbox" id="ar" name="langue1" value="ar"><label for="ar">Arabe</label><br>
+				<input type="checkbox" id="fr" name="langue2" value="fr"><label for="fr">Français</label><br>
+				<input type="checkbox" id="en" name="langue3" value="en"><label for="en">Anglais</label><br>
+				<label class="_champs" id="_langue"> * Champs obligatoire</label><br><br>
+				<!-- ********************************************************************************** -->
+				<!-- ********************************************************************************** -->
+				<div class="buttons_area">
+					<input class="button" type="submit" value="Envoyer">
+					<input class="button" type="reset" value="Annuler">
+				</div>
+				<!-- ********************************************************************************** -->
+				<!-- ********************************************************************************** -->
+			</fieldset>
+		</form>
+	</body>
+	<script src="script.js"></script>
+</html>

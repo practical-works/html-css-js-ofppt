@@ -1,0 +1,14 @@
+h1
+{
+	color:green;
+	font-size:2em;
+	/*font-variant: small-caps;*/
+	
+	text-transform: uppercase;
+}
+span
+{
+	font-weitgh:bold;
+	text-decoration:-----;
+	color:bleu;
+}

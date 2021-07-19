@@ -1,0 +1,51 @@
+﻿/*Sélecteur de type*/
+h1
+{
+	text-align:center;
+	text-transform:uppercase;
+}
+h2
+{
+	text-transform:uppercase;
+}
+
+/*Sélecteur de id*/
+#definition
+{
+	background-color:yellow;
+}
+#langage
+{
+	background-color:fuchsia;
+}
+#web
+{
+	background-color:green;
+}
+#standard
+{
+	background-color:lime;
+}
+#versions
+{
+	background-color:gray;
+}
+
+/*Sélecteur pseudo-class*/
+a:link
+{
+	color:DarkOrange;
+}
+a:hover
+{
+	color:DarkTurquoise;
+	background-color:LavenderBlush;
+}
+
+/* Autres sélecteurs :
+	Sélecteur css universel
+	Sélecteur adjacent
+	Sélecteur d'attribut
+	Sélecteur peudo-éléments
+	...
+*/

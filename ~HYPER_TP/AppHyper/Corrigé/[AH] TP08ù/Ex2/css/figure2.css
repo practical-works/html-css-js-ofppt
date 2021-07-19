@@ -1,0 +1,52 @@
+div div
+{
+	background-color:green;
+	width:10px;
+	height:10px;
+	margin:2px;
+	
+	/* border-radius:50px;*/
+}
+
+div>div:first-child
+{
+	background-color:palegreen;
+	position:absolute;
+	right:0px;
+}
+div>div:last-child
+{
+	background-color:orange;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+
+div>div:nth-child(2)
+{
+	background-color:yellow;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+div>div:nth-child(3)
+{
+	background-color:aliceblue;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+}
+body>div
+{
+	position:relative;
+	width:100px;
+	height:100px;
+	background-color:pale;
+	border:1px solid gray;
+}
+body
+{
+	padding:1px;
+	border:1px solid blue;
+	height:300px;	
+}

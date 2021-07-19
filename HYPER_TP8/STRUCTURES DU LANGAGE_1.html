@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<title>STRUCTURES DU LANGAGE</title>
+	</head>
+	<body style="font-size:200%">
+
+	</body>
+	<script type="text/javascript">
+	document.write("Hellow World!");
+	// Buttons pour Boucles
+	document.write('<br><br><button onclick="loop_for(10)">Boule FOR</button>');
+	document.write('<button onclick="loop_while(10)">Boule WHILE</button><br><br>');
+	// Buttons pour Figures géométriques
+	document.write('<button onclick="ligne(100)">Dessiner une ligne</button>');
+	document.write('<button onclick="carre_image(10,10)">Dessiner un carré d’image</button>');
+	document.write('<button onclick="carre_etoile(17,10)">Dessiner un carré d’étoile</button>');
+	// Button pour Table de Multiplication
+	document.write('<br><br><button onclick="tables_multi()">Tables Multiplication</button>');
+
+	// Fonction IF ELSE
+	function ten(n) {
+		if (n<10) alert(n + " est inférieur à 10");
+		else alert(n + " est supérieur à 10");
+	}
+
+	// Fonctions BOUCLES
+	function loop_for(n) {
+		document.body.innerHTML += "<br>";
+		for (var i = 0; i <= n; i++) {
+			document.body.innerHTML += "For Hello world! (" + i + ")<br>";
+		}
+	}
+	function loop_while(n) {
+		document.body.innerHTML += "<br>";
+		var i = 0;
+		while (i <= n) {
+			document.body.innerHTML += "While Hello world! (" + i + ")<br>";
+			i++;
+		}
+	}
+
+	// Fonctions FIGURES
+	function ligne(n) {
+		document.body.innerHTML += "<br>";
+		for (var i = 0; i < n; i++) {
+			document.body.innerHTML += "_";
+		}
+	}
+	function carre_image(l, L) {
+		document.body.innerHTML += "<br>";
+		for (var j = 1; j <= L; j++) {
+			for (i = 1; i <= l; i++) {
+				document.body.innerHTML += "_";
+	    	}
+	    	document.body.innerHTML += "<br>";
+		}
+	}
+	function carre_etoile(l, L) {
+		document.body.innerHTML += "<br>";
+		for (var j = 1; j <= L; j++) {
+			for (i = 1; i <= l; i++) {
+				document.body.innerHTML += "*";
+	    	}
+	    	document.body.innerHTML += "<br>";
+		}
+	}
+
+	// Fonction Table Multiplication
+	function tables_multi() {
+		document.body.innerHTML += "<br>";
+		for (var nombre = 0; nombre < 10; nombre++) {
+			for (var i = 1; i < 11; i++) {
+				document.body.innerHTML += nombre + " x " + i + " = " + nombre*i + "<br>";
+			}
+			document.body.innerHTML += "<br>";
+		}
+	}
+	</script>
+</html>

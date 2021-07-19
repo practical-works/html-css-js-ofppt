@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 2</title>
+	<script src="js/Ex02.js"></script>
+</head>
+<body>
+	<form name="Formulaire">
+		<table border="0">
+			<tr>
+				<td>Prix hors taxe :</td>
+				<td><input type="text" id="Prix" name="Prix"/></td>
+
+			</tr>
+			<tr>
+				<td>TVA :</td>
+				<td><input type="text" id="TVA" name="TVA"/></td>
+		
+			</tr>
+			<tr>
+				<td>Réduction :</td>
+				<td><input type="text" id="Réduction" name="Réduction"></td>
+
+			</tr>
+			<tr>
+				<td>PTTC :</td>
+				<td><input type="text" id="PTTC" name="PTTC" readonly="true"/></td>
+	
+			</tr>
+			<tr>
+				<td colspan = "2" align = "center">
+					<input type = "submit" value = "Calculer" onclick="Calculer()" />
+					<input type = "reset" value = "Rénisialiser" />
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

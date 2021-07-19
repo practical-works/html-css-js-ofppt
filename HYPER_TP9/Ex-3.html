@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>o_o</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form id="F">
+		<table>
+			<tr>
+				<td colspan="3">Simulateur de calcule de salaire net</td>
+			</tr>
+			<tr>
+				<td>Nombre de points</td>
+				<td><input type="text" id="points"></td>
+				<td><label id=""></label></td>
+			</tr>
+			<tr>
+				<td>Salaire brut</td>
+				<td><input type="text" id="salaire" readonly="true"></td>
+				<td><label id=""></label></td>
+			</tr>
+			<tr>
+				<td>Prime de résidence 13%</td>
+				<td><input type="text" id="prime" readonly="true"></td>
+				<td><label id=""></label></td>
+			</tr>
+			<tr>
+				<td>Retenue de retraite de 6,00%</td>
+				<td><input type="text" id="r_retraite" readonly="true"></td>
+				<td><label id=""></label></td>
+			</tr>
+			<tr>
+				<td>Retenue metuelle de 2,5%</td>
+				<td><input type="text" id="r_metuelle" readonly="true"></td>
+				<td><label id=""></label></td>
+			</tr>
+			<tr>
+				<td>Retenue Impôt sur le revenu(IR)</td>
+				<td><input type="text" id="r_impot" readonly="true"></td>
+				<td><label id=""></label></td>
+			</tr>
+			<tr>
+				<td>Salaire NET</td>
+				<td><input type="text" id="salaire_net" readonly="true"></td>
+				<td><label id=""></label></td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<input type="button" id="calculer" value="Calculer" onclick="valider()">
+					<input type="button" id="fermer" value="Fermer">
+					<input type="button" id="imprimer" value="Imprimer">
+					<input type="reset" id="vider" value="Vider">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+<script type="text/javascript">
+	/*
+	function valider() {
+		var points = document.getElementById("points").value;
+		if (isNaN(points)) {
+			alert("Le nombre de points entré est invalide !");
+		} else {
+			var salaire =  4.83*points;
+			document.getElementById("salaire").value = salaire;
+			
+			var prime = 0.13*salaire;
+			document.getElementById("prime").value = prime;
+			
+			var r_retraite = 0.06*salaire;
+			document.getElementById("r_retraite").value = r_retraite;
+
+			var r_metuelle = 0.025*salaire;
+			document.getElementById("r_metuelle").value = r_metuelle;
+
+			var r_impot = 0;
+			if (salaire >= 28001 && salaire <= 40000)
+				r_impot = 0.12*salaire;
+			else if (salaire >= 40001 && salaire <= 50000)
+				r_impot = 0.24*salaire;
+			else if (salaire >= 50001 && salaire <= 60000)
+				r_impot = 0.34*salaire;
+			else if (salaire >= 60001 && salaire <= 150000)
+				r_impot = 0.38*salaire;
+			else if (salaire >= 150000)
+				r_impot = 0.40*salaire;
+			document.getElementById("r_impot").value = r_impot;
+			
+			var salaire_net = salaire + (prime - (r_retraite+r_metuelle+r_impot));
+			document.getElementById("salaire_net").value = salaire_net;
+		}
+		*/
+
+		function valider() {
+			var points = F.points.value;
+			if (isNaN(points)) {
+				alert("Le nombre de points entré est invalide !");
+			} else {
+				var salaire =  4.83*points;
+				F.salaire.value = salaire;
+				
+				var prime = 0.13*salaire;
+				F.prime.value = prime;
+				
+				var r_retraite = 0.06*salaire;
+				F.r_retraite.value = r_retraite;
+
+				var r_metuelle = 0.025*salaire;
+				F.r_metuelle.value = r_metuelle;
+
+				var r_impot = 0;
+				if (salaire >= 28001 && salaire <= 40000)
+					r_impot = 0.12*salaire;
+				else if (salaire >= 40001 && salaire <= 50000)
+					r_impot = 0.24*salaire;
+				else if (salaire >= 50001 && salaire <= 60000)
+					r_impot = 0.34*salaire;
+				else if (salaire >= 60001 && salaire <= 150000)
+					r_impot = 0.38*salaire;
+				else if (salaire >= 150000)
+					r_impot = 0.40*salaire;
+				F.r_impot.value = r_impot;
+				
+				var salaire_net = salaire + (prime - (r_retraite+r_metuelle+r_impot));
+				F.salaire_net.value = salaire_net;
+			}
+		}
+</script>
+</html>

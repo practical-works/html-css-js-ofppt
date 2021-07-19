@@ -1,0 +1,39 @@
+body {
+	padding: 20px;
+}
+
+#images, #controls {
+	border: 1px solid black;
+	box-shadow: 0px 0px 10px black;
+	text-align: center;
+	width: 50%;
+	margin: 0px auto;
+}
+
+#images {
+	background-color: #999;
+}
+
+#controls {
+	padding: 30px 0px;
+	background-color: silver;
+}
+
+#controls button {
+	margin: 10px 30px;
+	padding: 10px 50px;
+	box-shadow: 0px 0px 10px black;
+	border: 1px solid black;
+	cursor: pointer;
+	background-color: orange;
+}
+
+#controls button:hover {
+	background-color: yellow;
+	box-shadow: 0px 0px 10px orange;
+	border: 1px solid yellow;
+}
+img:hover {
+	box-shadow: 0px 0px 10px orange;
+	cursor: pointer;
+}

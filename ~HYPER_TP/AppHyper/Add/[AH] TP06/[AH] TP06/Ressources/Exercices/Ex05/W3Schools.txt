@@ -1,0 +1,25 @@
+W3Schools
+
+W3Schools is a web developer information website, with tutorials and references relating to web development topics. The site derives its name from the abbreviation for the World Wide Web; W3 is a numeronym of WWW. W3Schools is not affiliated with the W3C. It is created and owned by Refsnes Data, a Norwegian family-owned software development and consulting company. The site provides a reference manual covering many aspects of web programming, including technologies such as HTML, CSS, XML, etc. W3schools presents thousands of code examples. By using the online editor provided, readers can edit the examples and execute the code experimentally.
+		
+Statistics
+
+W3Schools has had over 35 million visits to the site every month.
+It is one of the largest web development sites on the internet.
+1.5 billion pages read in the last year.
+Ranked 132nd most visited site on the Alexa Traffic Rank.
+		
+Demographics
+
+Country		Percentage of visitors
+USA		21.7%
+India		20.8%
+UK		4.1%
+Germany		2.9%
+France		2.7%
+
+Competition
+
+Due to the recent boom in interest in programming & web development, W3Schools now faces a lot of competition from many other websites. These include:
+HTMLCodeTutorial : a site whose main goal is to provide the user with a helpful guide to creating webpages.
+PageTutor : a site which has various Javascript, HTML and web producing tutorials.

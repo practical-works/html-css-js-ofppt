@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Timers</title>
+		<meta charset="utf-8">
+	</head>
+	<style type="text/css">
+		p {
+			font-size: 1000%;
+		}
+	</style>
+	<body onload="setTimeout(f, 3000)">
+
+		<input id="btn" type="button" name="btn" value="START" onclick="timer(true)">
+		<input id="btn2" type="button" name="btn" value="STOP" onclick="timer(false)">
+		<button onclick="date()">Afficher Date</button>
+		<p id="msg"></p>
+		<p id="date"></p>
+
+	</body>
+	
+<!-- ============================================================================= -->
+
+	<script type="text/javascript">
+		var x = 0, id = 0;
+		function msg(message, id) {
+			document.getElementById(id).innerHTML = message + "<br>";
+		}
+		function f() {
+			msg(x, "msg");
+			x++;
+		}
+		function timer(start) {
+			if (start)
+				id = setInterval(f, 100);
+			else
+				clearInterval(id);
+		}
+		function date() {
+			msg(Date.now().toString() ,"date");
+		}
+
+	</script>
+</html>

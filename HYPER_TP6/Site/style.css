@@ -1,0 +1,79 @@
+body {
+	font-family: 'Century Gothic', sans-serif;
+	background-color: gray;
+	font-size: 120%;
+	margin: 0px;
+}
+.barre-menus {
+	background-color: #303030;
+	color: white;
+	border-top: 2px solid white;
+	border-bottom: 1px solid white;
+	width: 100%;
+	height: 10%;
+	margin: 0px;
+	box-shadow: 0px 0px 20px black;
+}
+.menu {
+	display: inline-block;
+}
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+.menu a:hover {
+	text-decoration: underline;
+	color: orange;
+}
+.menu span {
+	cursor: pointer;	
+	padding: 20px 50px;
+}
+.menu span:hover {
+	color: yellow;
+	background-color: #404040;
+}
+.contenu {
+	display: none;
+	position: absolute;
+	border: 1px solid white;
+	background-color: #303030;
+	padding: 10px;
+}
+.contenu li {
+	list-style: none;
+}
+.menu:hover .contenu {
+	display: block;
+}
+.gauche {
+	float: left;
+	border: 1px solid black;
+	box-shadow: 10px 0px 20px black;
+	margin: 20px;
+}
+.droit {
+	float: right;
+	border: 1px solid black;
+	box-shadow: 0px 10px 20px black;
+	margin: 20px;
+}
+.centre {
+	
+	border: 1px solid black;
+	width: 70%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0px 0px 20px black;
+	text-align: justify;
+}
+.bas {
+	clear: left;
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin: 50px 0px 0px 0px;
+	box-shadow: 0px 0px 20px black;
+}
